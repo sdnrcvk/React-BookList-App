@@ -1,5 +1,5 @@
 .App{
-  background: #778beb;
+  background: #0e1225;
   margin:20px auto;
   width: 90%;
   max-width: 700px;
@@ -9,10 +9,56 @@
 .navbar{
   padding: 10px 20px;
   text-align: center;
-  background-color: #e77f67;
+  background-color: #509422;
   border-radius: 10px 10px 20px 20px;
 }
 
 .navbar h1{
   margin: 10px 0;
+}
+
+.book-list{
+  margin:20px;
+}
+
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li{
+  background: #f3a228;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.book-list .title{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.book-list .author{
+  font-size: 0.9em;
+}
+
+.book-list button{
+  background: #c50505;
+  border-radius: 4px;
+  width: 40px;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 5px;
+}
+
+.book-list button:hover{
+  opacity: 0.9;
+}
+
+.empty{
+  margin: 20px;
+  text-align: center;
+  color: #f3a228;
 }
