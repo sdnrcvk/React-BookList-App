@@ -3,7 +3,7 @@ import { BookContext } from '../contexts/bookContext'
 
 export default function BookForm() {
 
-  const {addBook}=useContext(BookContext);
+  const {dispatch}=useContext(BookContext);
   const [title,setTitle]=useState("");
   const [author,setAuthor]=useState("");
 
@@ -11,7 +11,7 @@ export default function BookForm() {
     e.preventDefault(); //varsayılan özelliklerini yok edelim
     //console.log(title,author);
 
-    addBook(title,author);
+    dispatch({type:"ADD_BOOK",book:{ad:title,yazar:author}})
     setTitle("");
     setAuthor("");
   }
