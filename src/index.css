@@ -1,0 +1,18 @@
+.App{
+  background: #778beb;
+  margin:20px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #e77f67;
+  border-radius: 10px 10px 20px 20px;
+}
+
+.navbar h1{
+  margin: 10px 0;
+}
