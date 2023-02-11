@@ -1,5 +1,5 @@
 .App{
-  background: #0e1225;
+  background: #03001C;
   margin:20px auto;
   width: 90%;
   max-width: 700px;
@@ -9,7 +9,7 @@
 .navbar{
   padding: 10px 20px;
   text-align: center;
-  background-color: #dbb3a1;
+  background-color: #ff9640;
   border-radius: 10px 10px 20px 20px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .book-list li{
-  background: #f3a228;
+  background: #3e9d85;
   border-radius: 4px;
   padding: 10px;
   margin: 20px;
@@ -44,7 +44,7 @@
 }
 
 .book-list button{
-  background: #c50505;
+  background: #b51717;
   border-radius: 4px;
   width: 40px;
   padding: 5px;
@@ -60,7 +60,7 @@
 .empty{
   margin: 20px;
   text-align: center;
-  color: #f3a228;
+  color: #fff;
 }
 
 form{
@@ -72,7 +72,7 @@ input[type="text"]{
   padding: 10px;
   box-sizing: border-box;
   margin: 6px 0;
-  background: #dbb3a1;
+  background: #BFDB38;
   color:#000;
   border: 0;
   border-radius: 5px;
@@ -84,7 +84,7 @@ input[type="text"]{
 
 input[type="submit"]{
   margin: 10px auto;
-  background: #62b32d;
+  background: #F0EEED;
   border: 0;
   border-radius: 10px;
   padding: 6px 20px;
